@@ -326,6 +326,7 @@ const counterObserver = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.5 });
 
+
 statNums.forEach(el => counterObserver.observe(el));
 
 // =============================================

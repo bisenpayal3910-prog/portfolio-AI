@@ -580,15 +580,17 @@ textarea { resize: vertical; }
 /* =============================================
    ABOUT
    ============================================= */
-.about-grid {
+/* .about-grid {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
   gap: 72px;
   align-items: center;
-}
+} */
 
 .about-image-wrap {
   position: relative;
+  align-items: center;
+  text-align: center;
 }
 
 .about-img-frame {
@@ -608,11 +610,23 @@ textarea { resize: vertical; }
   z-index: 1;
 }
 
-.about-img {
+/* .about-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+} */
+
+.about-content reveal{
+   align-items: center;
+  text-align: center;
+  justify-content: center;
 }
+.about-goals-title{
+   align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
 
 .about-exp-badge {
   position: absolute;
@@ -622,6 +636,7 @@ textarea { resize: vertical; }
   padding: 18px 22px;
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 10px;
 }
 
@@ -644,12 +659,18 @@ textarea { resize: vertical; }
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--text-primary);
+   align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .about-text {
   color: var(--text-secondary);
   margin-bottom: 16px;
   line-height: 1.8;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .about-goals-title {
